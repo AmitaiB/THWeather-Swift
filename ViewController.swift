@@ -10,9 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var funFactProperty: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        funFactProperty.text = "An Interesting Fact"
+
     }
 
     override func didReceiveMemoryWarning() {
